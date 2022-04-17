@@ -62,18 +62,9 @@ h1{
      color: #999;
    }
    .card .info .icons a{
-  font-size: 30px;
+  font-size: 20px;
   text-decoration: none;
   color: #d81b60;
   margin-top: 20px;
   padding:0 5px;
-   }
-   .bg-image{
-    opacity: 80%;
-    
-   }
-   .btn{   
-   background-color: white;
-   border-radius: 0.5rem;
-   margin-left: 39px;
    }
