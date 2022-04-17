@@ -1,0 +1,77 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Rajdhani:wght@300&family=Shadows+Into+Light&family=Square+Peg&display=swap');
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+text-transform: capitalize;
+transition: all 0.2s linear;
+font-family: square peg;
+}
+body{
+background: rgb(210, 209, 209);
+}
+h1{
+font-size: 70px;
+margin-top: 10px;
+color:#d81b60;
+text-align: center;
+}
+.container{
+display: flex;
+justify-content: center;
+flex: wrap;
+}
+.card{
+height: 500px;
+width: 290px;
+margin: 20px;
+box-shadow: 0 3pdx 5px #000;
+border-radius: 10px;
+overflow: hidden;
+text-align: center;
+background-color: #222;
+}
+.card .bg-image img{
+width: 100%;
+height:230px;
+object-fit: cover;
+clip-path: polygon(0 0, 100% 0%, 100% 70%, 45% 100%, 0 70%);
+}
+.card .pic img{
+height:120px;
+width:120px;
+border-radius: 50%;
+border:10px solid #222;
+margin-top: -90px;
+position: relative;
+}
+.card .info h3{
+color: #f0f0f0;
+font-size: 30px;
+padding:10px 0;
+}
+.card .info span{
+font-size: 25px;
+color:#d81b60;
+}
+.card .info p{
+font-size: 13px;
+padding:10px 20px;
+color: #999;
+}
+.card .info .icons a{
+font-size: 30px;
+text-decoration: none;
+color: #d81b60;
+margin-top: 20px;
+padding:0 5px;
+}
+.bg-image{
+opacity: 80%;
+}
+.btn{ 
+background-color: white;
+border-radius: 0.5rem;
+margin-left: 39px;
+}
